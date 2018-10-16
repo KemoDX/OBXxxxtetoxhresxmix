@@ -47,6 +47,8 @@ OBX System Bot
 متعدد الميزات و الاوامر فيه اوامر جميله يحتوي هذا البوت على
 خاصيه قائمه الالوان و تقدر تغير لونك زي برو بوت و مانع الاسبام و الترحيب 
 بصوره
+رابط سيرفر البوت عشان لو في أي مشكلة أو اقتراح
+https://discord.gg/gBWeD8v
 
 سرعه اتصال ممتازه
 سهل الاستخدام
@@ -823,7 +825,7 @@ client.on("message", (message) => {
  .setThumbnail(client.user.avatarURL)     
  .setDescription("Add me" + `
  **
-رابط البوت | https://goo.gl/87T4XW
+رابط البوت | https://discordapp.com/api/oauth2/authorize?client_id=498507129175408649&permissions=0&scope=bot
  **
 `);
   message.author.sendEmbed(embed);
