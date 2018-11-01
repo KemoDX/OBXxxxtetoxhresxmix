@@ -16,13 +16,8 @@ client.on("message", message => {
       .setDescription(`
 ***
 ملاحظه
-Special orders ان برفكس الاوامر المميزه او
-
-يختلف عن جميع الاوامر 
-Special orders برفكس الاوامر المميزه او 
-^!
-اما برفكس باقي الاوامر
-^
+البوت مصمم فقط لسيرفر 
+Ezio's Community
 ***
 `)
 
@@ -43,7 +38,7 @@ client.on("message", message => {
 
 ***__وصف عن البوت__***
 **
-OBX System Bot
+! Ezio's Community Bot
 متعدد الميزات و الاوامر فيه اوامر جميله يحتوي هذا البوت على
 خاصيه قائمه الالوان و تقدر تغير لونك زي برو بوت و مانع الاسبام و الترحيب 
 بصوره
@@ -1225,24 +1220,10 @@ client.on('ready',  () => {
                         }
                     });
                     
-client.on('ready', function(){
-    client.user.setStatus("dnd");
-    var ms = 100000 ;
-    var setGame = [`^help Servers ${client.guilds.size} `,`^invite Users ${client.users.size}`];
-    var i = -1;
-    var j = 0;
-    setInterval(function (){
-        if( i == -1 ){
-            j = 1;
-        }
-        if( i == (setGame.length)-1 ){
-            j = -1;
-        }
-        i = i+j
-	client.user.setGame(setGame[i],`http://www.twitch.tv/KiNg66S`);    
-    }, ms);100000
+client.on('ready', () => {
+   client.user.setGame(" -help | -invite ");
+}); 
 
-});
 
 //كود الاوان//
 
