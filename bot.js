@@ -1078,7 +1078,7 @@ client.on('message', message => {
   .setThumbnail(`${mentionavatar.avatarURL}`)
   .addField("***fuck you***" ,mentionavatar.username )
   .setDescription('***you got fucked [user]***')
-  .setImage('https://www.google.com.eg/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiK8rqWtr_eAhUDIlAKHUcCC3IQjRx6BAgBEAU&url=https%3A%2F%2Fwww.sex.com%2Fsearch%2Fgifs%3Fquery%3Danime&psig=AOvVaw0_G_29Spw4zMwnPyuoTPvG&ust=1541581881900509')
+  .setImage('https://images.sex.com/images/pinporn/2018/03/11/620/19229180.gif')
    message.channel.sendEmbed(EsTeKnAN);
   }
 });
