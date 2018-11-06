@@ -527,7 +527,7 @@ return;
             .addField('» السيرفر :', `${message.guild.name}`)
             .addField('» المرسل : ', `${message.author.username}#${message.author.discriminator}`)
             .addField(' » الرسالة : ', args)
-            .setColor('#ff0000')
+            .setColor('#fff00')
             // m.send(`[${m}]`);
             m.send(`${m}`,{embed: bc});
         });
