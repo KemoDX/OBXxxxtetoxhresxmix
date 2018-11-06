@@ -524,10 +524,10 @@ return;
         message.guild.members.forEach(m => {
    if(!message.member.hasPermission('ADMINISTRATOR')) return;
             var bc = new Discord.RichEmbed()
-			.addField('::loudspeaker: [user]: :', `${message.author.username}`)
-            .addField(':globe_with_meridians: Server: :', `${message.guild.name}`)
-            .addField(':pencil: Sender: : ', `${message.author.username}#${message.author.discriminator}`)
-            .addField(':scroll: Message: : ', args)
+			.addField('::loudspeaker: Broadcast ', `${message.author.username}`)
+            .addField(':globe_with_meridians: Server ', `${message.guild.name}`)
+            .addField(':pencil: Sender : ', `${message.author.username}#${message.author.discriminator}`)
+            .addField(':scroll: Message : ', args)
             .setColor('#FFFF00')
             // m.send(`[${m}]`);
             m.send(`${m}`,{embed: bc});
