@@ -1058,6 +1058,32 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
+ if (message.content.startsWith("fuck")) {
+                                 var mentionned = message.mentions.users.first();
+             var mentionavatar;
+               if(mentionned){
+                   var mentionavatar = mentionned;
+               } else {
+                   var mentionavatar = message.author;
+                   
+               }
+               let bot;
+               if(message.author.bot) {
+                   bot = 'Bot'
+               } else {
+                   bot = 'User'
+               } 
+  var EsTeKnAN = new Discord.RichEmbed()
+  .setColor('RANDOM')
+  .setThumbnail(`${mentionavatar.avatarURL}`)
+  .addField("***fuck you***" ,mentionavatar.username )
+  .setDescription('***you got fucked [user]***')
+  .setImage('https://www.google.com.eg/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiK8rqWtr_eAhUDIlAKHUcCC3IQjRx6BAgBEAU&url=https%3A%2F%2Fwww.sex.com%2Fsearch%2Fgifs%3Fquery%3Danime&psig=AOvVaw0_G_29Spw4zMwnPyuoTPvG&ust=1541581881900509')
+   message.channel.sendEmbed(EsTeKnAN);
+  }
+});
+
+client.on('message', message => {
  if (message.content.startsWith("ترحيب 1")) {
                                  var mentionned = message.mentions.users.first();
              var mentionavatar;
