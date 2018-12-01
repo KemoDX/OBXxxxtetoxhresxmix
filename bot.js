@@ -1027,7 +1027,7 @@ return message.reply("**:white_check_mark: .. تم فك الميوت عن الش
 });
 
  kboosh.on('message', message => {
-    if (message.content.split(' ')[0] == '^send')
+    if (message.content.split(' ')[0] == '%k')
        message.guild.members.forEach( member => {
          if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 
@@ -1039,7 +1039,7 @@ return message.reply("**:white_check_mark: .. تم فك الميوت عن الش
             
                                                   });
    kboosh.on("message", message => {
-       var prefix = "^";
+       var prefix = "%";
  
              var args = message.content.substring(prefix.length).split(" ");
                 if (message.content.startsWith(prefix + "b")) {
