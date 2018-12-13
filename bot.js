@@ -12840,4 +12840,4 @@ message.member.addRole(message.guild.roles.find("name", "100"));
 });
 
 
-client.login('NDk4NTA3MTI5MTc1NDA4NjQ5.DrxUog.sX6wDtY7CAqfILpFQYequabFYFk');
+client.login('NDk4NTA3MTI5MTc1NDA4NjQ5.DvPhEA.PiUszmPXoIgguGxgZaZEqh_BGKk');
