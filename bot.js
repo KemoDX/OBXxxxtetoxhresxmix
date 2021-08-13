@@ -40,18 +40,7 @@ client.on("message", message => {
 
 ***__وصف عن البوت__***
 **
-xF!ve Bot
-متعدد الميزات و الاوامر فيه اوامر جميله يحتوي هذا البوت على
-خاصيه قائمه الالوان و تقدر تغير لونك زي برو بوت و مانع الاسبام و الترحيب 
-بصوره
-
-سرعه اتصال ممتازه
-سهل الاستخدام
-صيانه كل يوم
-مجاني بل كامل 
-بوت عربي وسيتم اضافه اللغه الاجنبيه قريبا
-يحتوي على خاصيه الميوزك بجوده عاليه
-**
+CRZ Bot
 
         ***__General orders__***
 **
@@ -12792,4 +12781,4 @@ message.member.addRole(message.guild.roles.find("name", "100"));
 });
 
 
-client.login('NDk4NTA3MTI5MTc1NDA4NjQ5.DvRUWQ.JMIUZ9UkUagTdWEC-6SvX6pJzUE');
+client.login('ODc1NjY1MTMxNzkzNjgyNDMz.YRY0tA.45BnqKDXN9GJFRnbiaqEsG5DTnQ');
